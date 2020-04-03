@@ -74,5 +74,6 @@
 
 (add-hook 'c-mode-common-hook 'hs-minor-mode)
 (use-package format-all)
+(use-package goto-last-change)
 
 (provide 'setup-general)
