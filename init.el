@@ -26,18 +26,8 @@
 (require 'setup-org)
 
 (require 'setup-python)
+(require 'setup-dockerfile)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (jdee zygospore zenburn-theme yasnippet ws-butler volatile-highlights use-package undo-tree iedit helm-swoop helm-projectile helm-gtags function-args dtrt-indent counsel-projectile company comment-dwim-2 clean-aindent-mode anzu 0blayout))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
